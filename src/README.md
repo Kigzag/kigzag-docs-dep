@@ -2,6 +2,12 @@
 label: About
 icon: info
 ---
+# About Xeldorado Protocol
+
+We offer decentralised trading of NFT backed security tokens with AMMs.
+
+We have build a DeFi application that allows NFT creators to place all their NFTs in a vault and issue ERC20 creator tokens which can be traded against WETH or similar ERC20 token. Each creator's token gets a liquidity pool for trading (AMM). Our dapp framework fills the liquidity pools from Initial Creator Token offering. Owner of a creator token can redeem an NFT from creator vault against proportional amount of tokens. The liquidity pair of this token against WETH, USDC, DAI, etc. makes dealing in NFTs much simpler.
+
 # About Sakura Casino
 
 !!!warning
