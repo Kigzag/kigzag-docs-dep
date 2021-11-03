@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://xeldorado.github.io/XeldoradoDocs/sitemap.xml.gz
+Sitemap: /sitemap.xml.gz
