@@ -1,6 +1,6 @@
 input: "./src"
 output: ".retype"
-url: https://xeldorado.github.io/XeldoradoDocs/
+url: docs.xeldorado.live
 
 favicon: assets/sakura-icon.svg
 
