@@ -1,5 +1,4 @@
-Xeldorado Protocol docs
----
+# Xeldorado Protocol docs
 
 This contains all the content for [Xeldorado Docs Website](https://docs.xeldorado.live). This website is currently under heavy development phase.
 
