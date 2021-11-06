@@ -1,10 +1,10 @@
 Xeldorado Protocol docs
 ---
 
-This contains all the content for [Xeldorado Docs Website](https://docs.xeldorado.live).
+This contains all the content for [Xeldorado Docs Website](https://docs.xeldorado.live). This website is currently under heavy development phase.
 
 To run locally, install dependencies and then start the server
 ```
-npm install
-npm start
+npm install retypeapp --global
+retype watch
 ```
