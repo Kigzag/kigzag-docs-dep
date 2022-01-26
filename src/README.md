@@ -2,11 +2,61 @@
 label: About
 icon: info
 ---
-# About Xeldorado Protocol
+# [Xeldorado Protocol](https://main.xeldorado.live/)
 
-We offer decentralised trading of NFT backed security tokens with AMMs.
+![Samrt Contract Flow Diagram](./assets/social_token_development1.png)
 
-We have build a DeFi application that allows NFT creators to place all their NFTs in a vault and issue ERC20 creator tokens which can be traded against WETH or similar ERC20 token. Each creator's token gets a liquidity pool for trading (AMM). Our dapp framework fills the liquidity pools from Initial Creator Token offering. Owner of a creator token can redeem an NFT from creator vault against proportional amount of tokens. The liquidity pair of this token against WETH, USDC, DAI, etc. makes dealing in NFTs much simpler.
+### Xeldorado - A general purpose Social Token Protocol to build Creator Economy using 2 types of tokens:
+  
+#### 1. Loyalty Tokens (Launching soon)
+  These are **non-tradable** fixed price tickets to get exclusive services/products from creator. 
+
+<!-- ![Samrt Contract Flow Diagram](./assets/tickets.svg) -->
+<img src="./assets/tickets.png" width="400" height="250" />
+  
+##### Products/Rewards can be but not limited to:
+  
+  - gated community on discord, telegram
+  
+  - exclusive video content, one-on-one intereaction (online/offline), shoutouts on social media
+  
+  - merchandise
+  
+  - real world use cases like access to front row seats of Creator's show (if creator is a musician or comedian). 
+  
+  - Businesses can also be a creator and reward their loyal customers (token holders) with exclusive products and discounts. This will make their business **Network Effect** driven by creating **sticky customers**.
+
+![Samrt Contract Flow Diagram](./assets/premium.svg)
+
+##### Key Offerings:
+
+   - <b>Creator Tokens</b> : fans and followers can buy creator tokens at price fixed by creator or community. These tokens should be treated as vouchers or tickets which can be bought but one cannot sell them back directly. A creator can choose to create subscription by deducting some tokens from holder on regular basis.
+
+   - <b>NFT Sale against Creator Token</b> : Creator or community can decide upon price of NFT in creator tokens and list it for sale. 
+
+   - <b>DAO</b> : token holders can take part in creator community governance. Handles creator treasury. 
+   
+   - <b>Accepted Payments & Allowances</b> : 3 tokens are accepted for buying of Creator Tokens as well as receiving allowances. These are wrapped network's token (like **WETH** for ethereum. **WMATIC** for polygon, **WAVAX** for Avalanche, etc.), **USDC**, **DAI**. In case user doesn't own wrapped ERC20 version, we will integrate the function calls to wrap the token.
+
+##### Benefits:
+  - Same Creator Token can gives access across a range of products both online and offline.
+  
+  - Fans/Followers can take part in creator's decision making which takes participation in creator's journey to another level
+
+  - Global nature of blockchain makes cross border ticketting easier.
+
+
+#### 2. Growth Tokens (Need regulatory approval before launch)
+  Creator/Community are **Tradable** Social Tokens that offer potential increase in price as Creator/Community grows. Growth Tokens are superior version of Loyalty Tokens. They are traded with in-house AMM and offers:
+   - <b>Liquidity Pair of CreatorToken-BaseToken</b> : Gateway between Creator Economy and External World. Creator can choose from a list of options to select best suited BaseToken. For e.g. USDC, DAI, WETH, WBTC, BUSD, etc. 
+
+   - <b>NFTs that are pegged to CreatorToken</b> : Price of 1 NFT will be constant w.r.t. CreatorToken and every time a new NFT is added to the vault same number of CreatorTokens will be minted to ensure the peg. Price of NFT soars when Creator Tokens soars w.r.t. Base Tokens. Secondary Market for NFT allows price to soar further but the floor price of NFTs stay constant w.r.t. Creator Tokens. At this price NFT holder can sell to the vault.
+
+   - <b>Bank</b> : for NFT backed lending borrowing of Creator Tokens
+
+   - <b>DAO</b> : for Creator community governance. Handles community treasury.
+
+Creator/Community can decide to opt for anyone of them.
 
 # About Sakura Casino
 
