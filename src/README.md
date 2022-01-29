@@ -1,9 +1,9 @@
 ---
-label: About Xeldorado
+label: About Kigzag
 icon: info
 ---
 
-# [Xeldorado Protocol](https://main.xeldorado.live/)
+# [Kigzag Protocol](https://main.xeldorado.live/)
 
 ![Samrt Contract Flow Diagram](./assets/social_token_development1.png)
 
@@ -64,7 +64,7 @@ Creator/Community can decide to opt for anyone of them.
 
 ## Documentation
 
-White paper & Docs for Xeldorado Protocol is currently under development.
+White paper & Docs for Kigzag Protocol is currently under development.
 
 ## Tests
 
@@ -72,7 +72,7 @@ For tests please refer to [`README`](https://github.com/Xeldorado/XeldoradoContr
 
 ## Licensing
 
-The primary license for Xeldorado Contracts V1 is the Business Source License 1.1 (`BUSL-1.1`), see [`LICENSE`](https://github.com/Xeldorado/XeldoradoContractsV1/blob/main/LICENSE). 
+The primary license for Kigzag Contracts V1 is the Business Source License 1.1 (`BUSL-1.1`), see [`LICENSE`](https://github.com/Xeldorado/XeldoradoContractsV1/blob/main/LICENSE). 
 
 <h3>
     
@@ -97,7 +97,7 @@ The primary license for Xeldorado Contracts V1 is the Business Source License 1.
 
 ## Responsible disclosure
 
-At Xeldorado, we consider the security of our systems a top priority. But even putting top priority status and maximum effort, there is still possibility that vulnerabilities can exist. 
+At Kigzag, we consider the security of our systems a top priority. But even putting top priority status and maximum effort, there is still possibility that vulnerabilities can exist. 
 
 In case you discover a vulnerability, we would like to know about it immediately so we can take steps to address it as quickly as possible.  
 
