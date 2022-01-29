@@ -3,7 +3,6 @@ label: Network Expansion Plans
 icon: git-branch
 ---
 
-## Network Expansion Plans
 
 We plan to target low gas fee EVM compatible chains first since the same smart contracts will work it is just a matter of deployment and updating the webapp.
 

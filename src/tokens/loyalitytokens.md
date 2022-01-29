@@ -1,10 +1,9 @@
 ---
 label: Loyalty Tokens
 icon: git-branch
-icon: rocket
+icon: token 
 ---
 
-## Loyalty Tokens
 - [x] <b>Creator Token</b>
   - [x] Buy Creator Tokens at a price fixed by Creator/Community using network wrapped token like WETH/WMATIC/WAVAX or stablecoins like USDC, DAI. These base tokens/payment tokens received are send to DAO contract which handles treasury.
 

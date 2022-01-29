@@ -1,10 +1,9 @@
 ---
 label: Growth Tokens
 icon: git-branch
-icon: rocket
+icon: token
 ---
 
-## Growth Tokens
 - [x] <b>Creator Vault</b>
   - [x] Creator Add/Mint NFTs to vault contract
   - [x] Launch Creator Token, make it available for community to buy. Liquidity is bought not rented. Since CreatorTokens offer NFT, DAO, Banking related utilities they do have value since day one of launch especially to access Vault NFTs.
