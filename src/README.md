@@ -59,9 +59,6 @@ A general purpose Social Token Protocol to build Creator Economy using 2 types o
 
 Creator/Community can decide to opt for anyone of them.
 
-## Functionality
-
-
 ## Documentation
 
 White paper & Docs for Kigzag Protocol is currently under development.
