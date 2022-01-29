@@ -28,11 +28,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="/assets/sakura-icon.svg" rel="icon" />
-    <link href="/resources/css/retype.css?v=1.11.2.696775920638" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/resources/css/retype.css?v=1.11.2.696776089341" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/resources/js/config.js?v=1.11.2.696775920638" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/resources/js/config.js?v=1.11.2.696776089341" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/resources/js/retype.js?v=1.11.2" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=1.11.2.696775920638" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=1.11.2.696776089341" defer></script>
 </head>
     <body>
         <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -245,8 +245,8 @@
 <li class="task-list-item"><p><input disabled="disabled" type="checkbox" checked="checked" /> <b>Migration to V2</b></p>
 <ul class="contains-task-list">
 <li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> Pair, DAO, Vault and Bank contracts contains Token and NFT assets which is transfered via Migration Contract to V2 version of Pair, DAO, Vault and Bank contracts</li>
-<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> Before migration of a Creator Community&#x27;s assets, community members must vote for or against mirgration and migration contract will be made public much in advance. Voting is implemented in CreatorToken contract. This is done to ensure security of assets and decentralisation of decision making. This is important since in Xeldorado Protocol liquidity isn&#x27;t rented its owned.</li>
-<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> If voted no, then assets will stay in V1, current version, of Xeldorado Protocol</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> Before migration of a Creator Community&#x27;s assets, community members must vote for or against mirgration and migration contract will be made public much in advance. Voting is implemented in CreatorToken contract. This is done to ensure security of assets and decentralisation of decision making. This is important since in Kigzag Protocol liquidity isn&#x27;t rented its owned.</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> If voted no, then assets will stay in V1, current version, of Kigzag Protocol</li>
 <li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> There can be 2 types of migration, partial and complete. In partial migration only one or two parts maybe updated like only Vault contract updated and hence needs asset transfer only for Vault&#x27;s V2 version. In full migration all 4 contracts will be updated and maybe entire Factory and CreatorFactory may also be updated.</li>
 <li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> Migration function in Pair, DAO, Vault and Bank are implemented with check on voting status passed and only after that migration contract, that has been voted, is allowed to transfer asset by deploying V2 version of the contract.</li>
 <li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked" /> Migration function also updates all dependent contracts with new address of V2 contract. For e.g. if Vault contract gets migrated to V2,then its dependent contract CreatorToken, CreatorNFT, CreatorDAO and CreatorFactory will get updated with V2 address of vault variable.</li>
