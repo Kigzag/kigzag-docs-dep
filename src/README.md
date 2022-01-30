@@ -14,7 +14,8 @@ A general purpose Social Token Protocol to build Creator Economy using 2 types o
 
 <!-- ![Samrt Contract Flow Diagram](./assets/tickets.svg) -->
 <img src="./assets/tickets.png" width="400" height="250" />
-  
+<br/>
+
 ##### Products/Rewards can be but not limited to:
   
   - gated community on discord, telegram
