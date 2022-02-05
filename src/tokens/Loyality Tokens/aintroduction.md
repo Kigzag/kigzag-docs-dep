@@ -1,15 +1,9 @@
 ---
-label: Introduction
+label: Rewards & Benefits
 icon: git-branch
 icon: token 
 order: 900
 ---
- 
-  These are **non-tradable** fixed price tickets to get exclusive services/products from creator. 
-
-<!-- <img src="./assets/tickets.png" width="400" height="250" /> -->
-![](../../assets/tickets.png)
-  
 ## Services, Rewards & much more...
   
   - gated community on discord, telegram
