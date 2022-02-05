@@ -1,8 +1,8 @@
 ---
-label: Preface: Loyality Tokens
+label: Introduction
 icon: git-branch
 icon: token 
-order: 1000
+order: 800
 ---
  
   These are **non-tradable** fixed price tickets to get exclusive services/products from creator. 
