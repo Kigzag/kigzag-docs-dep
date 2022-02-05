@@ -1,5 +1,5 @@
 ---
-label: Loyalty Tokens
+label: Loyality Tokens
 icon: git-branch
 icon: token 
 order: 1000
@@ -10,7 +10,7 @@ order: 1000
 <!-- <img src="./assets/tickets.png" width="400" height="250" /> -->
 ![](../../assets/tickets.png)
   
-## Seervice, Rewards & much more...
+## Services, Rewards & much more...
   
   - gated community on discord, telegram
   
