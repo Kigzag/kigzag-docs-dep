@@ -8,7 +8,7 @@ order: 1000
   These are **non-tradable** fixed price tickets to get exclusive services/products from creator. 
 
 <!-- ![Samrt Contract Flow Diagram](./assets/tickets.svg) -->
-<img src="../assets/tickets.png" width="400" height="250" />
+<img src="../../assets/tickets.png" width="400" height="250" />
   
 ## Seervice, Rewards & much more...
   
@@ -22,7 +22,7 @@ order: 1000
   
   - Businesses can also be a creator and reward their loyal customers (token holders) with exclusive products and discounts. This will make their business **Network Effect** driven by creating **sticky customers**.
 
-![Samrt Contract Flow Diagram](../assets/premium.svg)
+![Samrt Contract Flow Diagram](../../assets/premium.svg)
 
 ## Key Offerings
 
