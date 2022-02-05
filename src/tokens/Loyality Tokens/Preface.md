@@ -1,5 +1,5 @@
 ---
-label: Loyality Tokens
+label: Preface: Loyality Tokens
 icon: git-branch
 icon: token 
 order: 1000
