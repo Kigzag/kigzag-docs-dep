@@ -1,7 +1,7 @@
 ---
-label: Creator Dao & Vault
+label: Tokens, Dao & Vault
 icon: git-branch
-icon: token 
+icon: plug
 order: 900
 ---
 

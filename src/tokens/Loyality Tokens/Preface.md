@@ -7,9 +7,8 @@ order: 1000
  
   These are **non-tradable** fixed price tickets to get exclusive services/products from creator. 
 
-<!-- ![Samrt Contract Flow Diagram](./assets/tickets.svg) -->
-<!-- <img src="../../assets/tickets.png" width="400" height="250" /> -->
-![Samrt Contract Flow Diagram](../../assets/tickets.png)
+<!-- <img src="./assets/tickets.png" width="400" height="250" /> -->
+![](../../assets/tickets.png)
   
 ## Seervice, Rewards & much more...
   
