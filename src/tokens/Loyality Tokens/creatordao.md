@@ -2,7 +2,7 @@
 label: Tokens, Dao & Vault
 icon: git-branch
 icon: plug
-order: 900
+order: 1000
 ---
 
   - Buy Creator Tokens at a price fixed by Creator/Community using network wrapped token like WETH/WMATIC/WAVAX or stablecoins like USDC, DAI. These base tokens/payment tokens received are send to DAO contract which handles treasury.
