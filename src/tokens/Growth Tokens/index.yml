@@ -2,3 +2,4 @@ order: 500
 icon: book
 expanded: true
 label: Growth Tokens
+visibility: hidden
