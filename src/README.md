@@ -5,7 +5,7 @@ icon: info
 
 # [Kigzag Protocol](https://kigzag.com/)
 
-![Samrt Contract Flow Diagram](./assets/social_token_development1.png)
+![Smart Contract Flow Diagram](./assets/social_token_development1.png)
 
 A general purpose Social Token Protocol to build Creator Economy using 2 types of tokens:
  
@@ -17,7 +17,7 @@ White paper & Docs for Kigzag Protocol is currently under development.
 ## Tests
 
 For tests please refer to [`README`](https://github.com/Kigzag/KigzagContractsV1/blob/main/test/README.md) from test folder.
-
+<!-- 
 ## Licensing
 
 The primary license for Kigzag Contracts V1 is the Business Source License 1.1 (`BUSL-1.1`), see [`LICENSE`](https://github.com/Kigzag/KigzagContractsV1/blob/main/LICENSE). 
@@ -82,4 +82,4 @@ We will promise the following:
   
     - we haven't implemented the logic for creator's bank contract. There must be some buffer between Creator Token launch and starting of Bank to mitigate risk and establish real valuations for NFTs as well as Creator Tokens which is much needed for using them as collateral for lending borrowing. However The intigration will require only deploying of Bank contract by creator and updating creatorBank value in XeldoraroCreatorFactory contract.
 
-
+ -->
