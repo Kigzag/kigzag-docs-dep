@@ -9,21 +9,21 @@
     <meta name="turbo-cache-control" content="no-cache">
 
     <!-- Primary Meta Tags -->
-    <title>UI Development Docs</title>
-    <meta name="title" content="UI Development Docs">
-    <meta name="description" content="Once you have run the roulette-ui repository, it will open a dev server in http://localhost:9000." />
+    <title>Tokens Docs</title>
+    <meta name="title" content="Tokens Docs">
+    <meta name="description" content="Creator/Community are Tradable Social Tokens that offer potential increase in price as Creator/Community grows." />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://docs.kigzag.com/development/ui/">
-    <meta property="og:title" content="UI Development Docs">
-    <meta property="og:description" content="Once you have run the roulette-ui repository, it will open a dev server in http://localhost:9000.">
+    <meta property="og:url" content="https://docs.kigzag.com/tokens/growth-tokens/tokens/">
+    <meta property="og:title" content="Tokens Docs">
+    <meta property="og:description" content="Creator/Community are Tradable Social Tokens that offer potential increase in price as Creator/Community grows.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://docs.kigzag.com/development/ui/">
-    <meta property="twitter:title" content="UI Development Docs">
-    <meta property="twitter:description" content="Once you have run the roulette-ui repository, it will open a dev server in http://localhost:9000.">
+    <meta property="twitter:url" content="https://docs.kigzag.com/tokens/growth-tokens/tokens/">
+    <meta property="twitter:title" content="Tokens Docs">
+    <meta property="twitter:description" content="Creator/Community are Tradable Social Tokens that offer potential increase in price as Creator/Community grows.">
     
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
@@ -230,57 +230,30 @@
                 <div id="docs-sidebar-right-toggle"></div>
                
                 <!-- Page content  -->
-<doc-anchor-target id="ui-development" class="break-words">
+<doc-anchor-target id="tokens" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#ui-development">#</doc-anchor-trigger>
-        <span>UI Development</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#tokens">#</doc-anchor-trigger>
+        <span>Tokens</span>
     </h1>
 </doc-anchor-target>
-<p>Once you have run the <a href="https://github.com/sakuracasino/roulette-ui">roulette-ui</a> repository, it will open a dev server in <code v-pre>http://localhost:9000</code>.</p>
-<doc-anchor-target id="webpack">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#webpack">#</doc-anchor-trigger>
-        <span>Webpack</span>
-    </h3>
+<doc-anchor-target id="growth-tokens-need-regulatory-approval-before-launch">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#growth-tokens-need-regulatory-approval-before-launch">#</doc-anchor-trigger>
+        <span>Growth Tokens (Need regulatory approval before launch)</span>
+    </h2>
 </doc-anchor-target>
-<p>We use <a href="https://webpack.js.org/">webpack</a> for building the bundle. <code v-pre>webpack.commmon.js</code> contains most of the configuration.</p>
-<p><code v-pre>npm start</code> servers the express server
-<code v-pre>npm run build</code> generates a production-ready build in the <code v-pre>dist/</code> folder</p>
-<doc-anchor-target id="web3react">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#web3react">#</doc-anchor-trigger>
-        <span>web3React</span>
-    </h3>
-</doc-anchor-target>
-<p>We use <a href="https://github.com/NoahZinsmeister/web3-react">webReact</a> for connecting with the blockchain through <em>Metamask</em>.
-We also use <a href="https://docs.ethers.io/v5/">ethers</a> for interacting with contracts and big numbers.</p>
-<p>All the actions and data retrieval are done by the <code v-pre>NetworkHelper</code> class.</p>
-<doc-anchor-target id="redux">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#redux">#</doc-anchor-trigger>
-        <span>Redux</span>
-    </h3>
-</doc-anchor-target>
-<p>We use <a href="https://reactjs.org/">React</a> and <a href="https://redux.js.org/">Redux</a> for application data management.</p>
-<p>There currently two slices:</p>
-<p><code v-pre>betPoolSlice.ts</code>, which manages the data related to the current bets you&#x27;re doing</p>
-<p><code v-pre>networkSlice.ts</code>, which manages data from the blockchain.</p>
-<doc-anchor-target id="typescript">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#typescript">#</doc-anchor-trigger>
-        <span>Typescript</span>
-    </h3>
-</doc-anchor-target>
-<p>We also use <a href="https://www.typescriptlang.org/">TypeScript</a> for all our <em>JavaScript</em> code. Common types are in the <code v-pre>src/types.d.ts</code> file.</p>
-<doc-anchor-target id="circleci">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#circleci">#</doc-anchor-trigger>
-        <span>CircleCI</span>
-    </h3>
-</doc-anchor-target>
-<p>We use a <a href="https://circleci.com/">CircleCI</a> configuration file for all the continuous integration tasks.</p>
-<p>When you merge something in the <code v-pre>master</code>, it will update automatically under <code v-pre>appdev.sakura.casino</code> using a S3 bucket.
-When changes are merged to the <code v-pre>production</code> branch, <code v-pre>app.sakura.casino</code> will be deployed with such changes.</p>
+<p>Creator/Community are <strong>Tradable</strong> Social Tokens that offer potential increase in price as Creator/Community grows. Growth Tokens are superior version of Loyalty Tokens. They are traded with in-house AMM and offers:</p>
+<ul>
+<li><p><b>Liquidity Pair of CreatorToken-BaseToken</b> : Gateway between Creator Economy and External World. Creator can choose from a list of options to select best suited BaseToken. For e.g. USDC, DAI, WETH, WBTC, BUSD, etc.</p>
+</li>
+<li><p><b>NFTs that are pegged to CreatorToken</b> : Price of 1 NFT will be constant w.r.t. CreatorToken and every time a new NFT is added to the vault same number of CreatorTokens will be minted to ensure the peg. Price of NFT soars when Creator Tokens soars w.r.t. Base Tokens. Secondary Market for NFT allows price to soar further but the floor price of NFTs stay constant w.r.t. Creator Tokens. At this price NFT holder can sell to the vault.</p>
+</li>
+<li><p><b>Bank</b> : for NFT backed lending borrowing of Creator Tokens</p>
+</li>
+<li><p><b>DAO</b> : for Creator community governance. Handles community treasury.</p>
+</li>
+</ul>
+<p>Creator/Community can decide to opt for anyone of them.</p>
 
 
 
@@ -290,6 +263,27 @@ When changes are merged to the <code v-pre>production</code> branch, <code v-pre
             </div>
 
             
+<nav class="flex mt-14">
+    <div class="w-1/2">
+        <a class="px-5 py-4 h-full flex items-center break-all md:break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="/tokens/growth-tokens/daovault/">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+            <span>
+                <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
+                <span class="block mt-1">Dao & Vault</span>
+            </span>
+        </a>
+    </div>
+
+    <div class="w-1/2">
+        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-all md:break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="/tokens/loyality-tokens/tokens/">
+            <span>
+                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
+                <span class="block mt-1">Tokens, Dao & Vault</span>
+            </span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+        </a>
+    </div>
+</nav>
 
 
         </main>
@@ -332,6 +326,6 @@ When changes are merged to the <code v-pre>production</code> branch, <code v-pre
 
         <div id="docs-overlay-target"></div>
 
-        <script>window.__DOCS__ = { "title": "UI Development", icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+        <script>window.__DOCS__ = { "title": "Tokens", icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
     </body>
 </html>
