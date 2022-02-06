@@ -7,10 +7,9 @@ icon: info
 
 ![Smart Contract Flow Diagram](./assets/social_token_development1.png)
 Kigzag is a general purpose open source, non custodial blockchain powered protocol which decentralises social businesses with the help of creator tokens.
-
 Tokens are smart tickets to access services & rewards provided by a creator. It provides two types of tokens -
-    1. Growth Tokens
-    2. Loyalty Tokens
+    - Growth Tokens
+    - Loyalty Tokens
  
 
 ## Documentation
