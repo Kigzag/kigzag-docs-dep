@@ -9,23 +9,21 @@
     <meta name="turbo-cache-control" content="no-cache">
 
     <!-- Primary Meta Tags -->
-    <title>Getting Started Docs</title>
-    <meta name="title" content="Getting Started Docs">
-    <meta name="description" content="This guide is useful if you want to contribute or just want to locally run the application instead of using our domain to connect to the UI." />
+    <title>License Docs</title>
+    <meta name="title" content="License Docs">
+    <meta name="description" content="The primary license for Kigzag Contracts V1 is the Business Source License 1.1 ( BUSL-1.1), see LICENSE" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://docs.kigzag.com/development/getting-started/">
-    <meta property="og:title" content="Getting Started Docs">
-    <meta property="og:description" content="This guide is useful if you want to contribute or just want to locally run the application instead of using our domain to connect to the UI.">
-    <meta property="og:image" content="https://docs.kigzag.com/assets/mint_dai.png">
+    <meta property="og:url" content="https://docs.kigzag.com/license/">
+    <meta property="og:title" content="License Docs">
+    <meta property="og:description" content="The primary license for Kigzag Contracts V1 is the Business Source License 1.1 ( BUSL-1.1), see LICENSE">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://docs.kigzag.com/development/getting-started/">
-    <meta property="twitter:title" content="Getting Started Docs">
-    <meta property="twitter:description" content="This guide is useful if you want to contribute or just want to locally run the application instead of using our domain to connect to the UI.">
-    <meta property="twitter:image" content="https://docs.kigzag.com/assets/mint_dai.png">
+    <meta property="twitter:url" content="https://docs.kigzag.com/license/">
+    <meta property="twitter:title" content="License Docs">
+    <meta property="twitter:description" content="The primary license for Kigzag Contracts V1 is the Business Source License 1.1 ( BUSL-1.1), see LICENSE">
     
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
@@ -232,46 +230,32 @@
                 <div id="docs-sidebar-right-toggle"></div>
                
                 <!-- Page content  -->
-<doc-anchor-target id="getting-started" class="break-words">
+<doc-anchor-target id="license" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#getting-started">#</doc-anchor-trigger>
-        <span>Getting Started</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#license">#</doc-anchor-trigger>
+        <span>License</span>
     </h1>
 </doc-anchor-target>
-<p>This guide is useful if you want to contribute or just want to locally run the application instead of using our domain to connect to the UI.</p>
-<p>There&#x27;re two github repositories:</p>
-<ul>
-<li><p><strong><a href="https://github.com/sakuracasino/roulette-ui">sakuracasino/roulette-ui</a></strong> which contains the source code for running the UI in <a href="https://app.sakura.casino">app.sakura.casino</a>.</p>
-</li>
-<li><p><strong><a href="https://github.com/sakuracasino/roulette-contract">sakuracasino/roulette-contract</a></strong> which contains contract&#x27;s source code aswell as its testing environment.</p>
-</li>
-</ul>
-<doc-anchor-target id="setting-up-the-ui-locally">
+<p>The primary license for Kigzag Contracts V1 is the Business Source License 1.1 (<code v-pre>BUSL-1.1</code>), see <a href="https://github.com/Kigzag/KigzagContractsV1/blob/main/LICENSE"><code v-pre>LICENSE</code></a>.</p>
+<p><strong>Overall this repository is not available for production use !!!</strong></p>
+<doc-anchor-target id="exceptions">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#setting-up-the-ui-locally">#</doc-anchor-trigger>
-        <span>Setting up the UI locally</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#exceptions">#</doc-anchor-trigger>
+        <span>Exceptions</span>
     </h3>
 </doc-anchor-target>
-<p>You can follow the <code v-pre>README.md</code> file in the repository, but it should work with the following steps.</p>
-<ol>
-<li>Make sure to have <code v-pre>nodejs</code> and <code v-pre>npm</code> installed.</li>
-<li>Clone the repository</li>
-<li>Run <code v-pre>npm intall</code> and then <code v-pre>npm start</code></li>
-<li>The UI should be running at <code v-pre>http://localhost:9000/</code></li>
-</ol>
-<doc-anchor-target id="using-kovan-testnet">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#using-kovan-testnet">#</doc-anchor-trigger>
-        <span>Using kovan testnet</span>
-    </h4>
+<ul>
+<li>All files in <code v-pre>contracts/interfaces/</code> are licensed under <code v-pre>GPL-2.0-or-later</code> (as indicated in their SPDX headers), see <a href="https://github.com/Kigzag/KigzagContractsV1/blob/main/contracts/interfaces/LICENSE"><code v-pre>contracts/interfaces/LICENSE</code></a></li>
+<li>Several files in <code v-pre>contracts/libraries/</code> are licensed under <code v-pre>GPL-2.0-or-later</code> (as indicated in their SPDX headers), see <a href="https://github.com/Kigzag/KigzagContractsV1/blob/main/contracts/libraries/LICENSE"><code v-pre>contracts/libraries/LICENSE</code></a></li>
+<li>All files in <code v-pre>contracts/test</code> remain unlicensed.</li>
+</ul>
+<doc-anchor-target id="responsible-disclosure">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#responsible-disclosure">#</doc-anchor-trigger>
+        <span>Responsible disclosure</span>
+    </h2>
 </doc-anchor-target>
-<p>If you want to make experiments or develop the UI only, you can connect to the <code v-pre>Kovan</code> testnet using Metamask. <code v-pre>Kovan</code> is meant for testing purposes so you can do what you want there. There&#x27;s a <a href="https://gitter.im/kovan-testnet/faucet">kovan faucet</a> where you can get some test ETH to get started.</p>
-<p><figure class="content-center">
-    <img src="../../assets/mint_dai.png" alt="" />
-    <figcaption class="caption"></figcaption>
-</figure>
-</p>
-<p>Since we use a mocked version of <code v-pre>DAI</code> with unlimited minting, there&#x27;s a <code v-pre>Mint DAI</code> button where you can get some test <code v-pre>DAI</code> for free.</p>
+<p>At Kigzag, we consider the security of our systems a top priority. But even putting top priority status and maximum effort, there is still possibility that vulnerabilities can exist.</p>
 <div class="flex mb-6">
     <div class="flex-shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
     <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
@@ -285,20 +269,65 @@
             </svg>
         </div>
         <div class="pr-5 ml-3">
-            <h5>Pro tip</h5>
-<p>You don&#x27;t need to run a local server to try the roulette with the Kovan testnet, you can just switch to Kovan while using the app deployed in our server.</p>
+            <h5>In case you discover a vulnerability, we would like to know about it immediately so we can take steps to address it as quickly as possible.</h5>
+<p>If you discover a vulnerability, please do the following:</p>
+<p>E-mail your findings to <a href="mailto:kigzagofficial@gmail.com">kigzagofficial@gmail.com</a>.</p>
+<p>Do not take advantage of the vulnerability or problem you have discovered.</p>
+<p>Do not reveal the problem to others until it has been resolved.</p>
+<p>Do not use attacks on physical security, social engineering, distributed denial of service, spam or applications of third parties. and</p>
+<p>Do provide sufficient information to reproduce the problem, so we will be able to resolve it as quickly as possible. Complex vulnerabilities may require further explanation so we might ask you for additional information.</p>
+<div class="flex mb-6">
+    <div class="flex-shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3">
+            <h5>We will promise the following:</h5>
+<p>We will respond to your report within 3 business days with our evaluation of the report and an expected resolution date.</p>
+<p>If you have followed the instructions above, we will not take any legal action against you in regard to the report.</p>
+<p>We will handle your report with strict confidentiality, and not pass on your personal details to third parties without your permission.</p>
+<p>If you so wish we will keep you informed of the progress towards resolving the problem.</p>
+<p>In the public information concerning the problem reported, we will give your name as the discoverer of the problem (unless you desire otherwise).</p>
+<p>As a token of our gratitude for your assistance, we offer a reward for every report of a security problem that was not yet known to us. The amount of the reward will be determined based on the severity of the leak, the quality of the report and any additional assistance you provide.</p>
+<doc-anchor-target id="remarks">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#remarks">#</doc-anchor-trigger>
+        <span>Remarks</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li>Currently,
+<ul>
+<li><p>we won&#x27;t be having any exchange token but the core contract has support for discounted fees based on the number of exchange tokens owned. This is done to ensure smooth future integration of exchange token next year after our protocol gains some traction.</p>
+</li>
+<li><p>we haven&#x27;t implemented the logic for creator&#x27;s bank contract. There must be some buffer between Creator Token launch and starting of Bank to mitigate risk and establish real valuations for NFTs as well as Creator Tokens which is much needed for using them as collateral for lending borrowing. However The intigration will require only deploying of Bank contract by creator and updating creatorBank value in XeldoraroCreatorFactory contract.</p>
+</li>
+</ul>
+</li>
+</ul>
+<doc-anchor-target id="community">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#community">#</doc-anchor-trigger>
+        <span>Community</span>
+    </h2>
+</doc-anchor-target>
+<p><a href="https://discord.gg/ExMb82zpnB" target="_blank"><img src="https://kigzag.com/images/discord.png" width="80" height="80"/></a>   
+<a href="https://t.me/Kigzag" target="_blank"><img src="https://kigzag.com/images/telegram.png" width="80" height="80"/></a>   
+<a href="https://twitter.com/Kigzag" target="_blank"><img src="https://kigzag.com/images/twitter.png" width="80" height="80"/></a>   
+<a href="https://www.reddit.com/r/Kigzag/" target="_blank"><img src="https://kigzag.com/images/reddit.png" width="80" height="80"/></a></p>
         </div>
     </div>
 </div>
-<doc-anchor-target id="setting-up-the-contract-development-environment">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#setting-up-the-contract-development-environment">#</doc-anchor-trigger>
-        <span>Setting up the Contract development environment</span>
-    </h3>
-</doc-anchor-target>
-<p>If you wish to try developing features for the contract, you can clone the <code v-pre>sakuracasino/roulette-contract</code> repository and run it with <code v-pre>npm</code> too. Please read the readme for this reference.</p>
-<p>Additionally, this repository is synced with its own <a href="https://www.npmjs.com/package/@sakuracasino/roulette-contract">npm package</a> that exports the <em>contract&#x27;s ABI</em> and network addresses to be consumed by the frontend app.</p>
-<p>Please read the following <a href="/development/contract/">contract documentation</a> to get to know this repository better.</p>
+        </div>
+    </div>
+</div>
 
 
 
@@ -308,6 +337,27 @@
             </div>
 
             
+<nav class="flex mt-14">
+    <div class="w-1/2">
+        <a class="px-5 py-4 h-full flex items-center break-all md:break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="/exchangefees/">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+            <span>
+                <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
+                <span class="block mt-1">Exchange Fees</span>
+            </span>
+        </a>
+    </div>
+
+    <div class="w-1/2">
+        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-all md:break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="/networkexpansion/">
+            <span>
+                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
+                <span class="block mt-1">Network Expansion Plans</span>
+            </span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+        </a>
+    </div>
+</nav>
 
 
         </main>
@@ -350,6 +400,6 @@
 
         <div id="docs-overlay-target"></div>
 
-        <script>window.__DOCS__ = { "title": "Getting Started", icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+        <script>window.__DOCS__ = { "title": "License", icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
     </body>
 </html>
