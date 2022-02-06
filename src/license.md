@@ -5,10 +5,10 @@ icon: info
 
 The primary license for Kigzag Contracts V1 is the Business Source License 1.1 (`BUSL-1.1`), see [`LICENSE`](https://github.com/Kigzag/KigzagContractsV1/blob/main/LICENSE). 
     
-**Overall this repository is not available for production use !!!**
+Overall this repository is **not** available for production use !!!
 
 
-### Exceptions
+## Exceptions
 
 - All files in `contracts/interfaces/` are licensed under `GPL-2.0-or-later` (as indicated in their SPDX headers), see [`contracts/interfaces/LICENSE`](https://github.com/Kigzag/KigzagContractsV1/blob/main/contracts/interfaces/LICENSE)
 - Several files in `contracts/libraries/` are licensed under `GPL-2.0-or-later` (as indicated in their SPDX headers), see [`contracts/libraries/LICENSE`](https://github.com/Kigzag/KigzagContractsV1/blob/main/contracts/libraries/LICENSE)
@@ -31,6 +31,7 @@ Do not reveal the problem to others until it has been resolved.
 Do not use attacks on physical security, social engineering, distributed denial of service, spam or applications of third parties. and 
 
 Do provide sufficient information to reproduce the problem, so we will be able to resolve it as quickly as possible. Complex vulnerabilities may require further explanation so we might ask you for additional information. 
+!!!
 
 !!! We will promise the following: 
 
@@ -45,7 +46,7 @@ If you so wish we will keep you informed of the progress towards resolving the p
 In the public information concerning the problem reported, we will give your name as the discoverer of the problem (unless you desire otherwise).
 
 As a token of our gratitude for your assistance, we offer a reward for every report of a security problem that was not yet known to us. The amount of the reward will be determined based on the severity of the leak, the quality of the report and any additional assistance you provide.  
-
+!!! 
 ## Remarks
 
 - Currently,

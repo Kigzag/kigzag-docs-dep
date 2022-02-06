@@ -1,6 +1,7 @@
 ---
 label: About Sakura
 icon: info
+visibility: hidden
 ---
 
 # About Sakura Casino
