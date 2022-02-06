@@ -9,30 +9,30 @@
     <meta name="turbo-cache-control" content="no-cache">
 
     <!-- Primary Meta Tags -->
-    <title>Dao &amp; Vault Docs</title>
-    <meta name="title" content="Dao & Vault Docs">
-    <meta name="description" content="Creator/Community are Tradable Social Tokens that offer potential increase in price as Creator/Community grows." />
+    <title>Growth Tokens Docs</title>
+    <meta name="title" content="Growth Tokens Docs">
+    <meta name="description" content="Growth Tokens are Tradable Social Tokens that offer potential increase in price as Creator/Community grows." />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.kigzag.com/tokens/grwothtoken/">
-    <meta property="og:title" content="Dao & Vault Docs">
-    <meta property="og:description" content="Creator/Community are Tradable Social Tokens that offer potential increase in price as Creator/Community grows.">
+    <meta property="og:title" content="Growth Tokens Docs">
+    <meta property="og:description" content="Growth Tokens are Tradable Social Tokens that offer potential increase in price as Creator/Community grows.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.kigzag.com/tokens/grwothtoken/">
-    <meta property="twitter:title" content="Dao & Vault Docs">
-    <meta property="twitter:description" content="Creator/Community are Tradable Social Tokens that offer potential increase in price as Creator/Community grows.">
+    <meta property="twitter:title" content="Growth Tokens Docs">
+    <meta property="twitter:description" content="Growth Tokens are Tradable Social Tokens that offer potential increase in price as Creator/Community grows.">
     
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="/assets/klogo.png" rel="icon" />
-    <link href="/resources/css/retype.css?v=1.11.2.697466648748" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/resources/css/retype.css?v=1.11.2.697466981325" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/resources/js/config.js?v=1.11.2.697466648748" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/resources/js/config.js?v=1.11.2.697466981325" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/resources/js/retype.js?v=1.11.2" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=1.11.2.697466648748" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=1.11.2.697466981325" defer></script>
 </head>
     <body>
         <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -230,10 +230,10 @@
                 <div id="docs-sidebar-right-toggle"></div>
                
                 <!-- Page content  -->
-<doc-anchor-target id="dao--vault" class="break-words">
+<doc-anchor-target id="growth-tokens" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#dao--vault">#</doc-anchor-trigger>
-        <span>Dao &amp; Vault</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#growth-tokens">#</doc-anchor-trigger>
+        <span>Growth Tokens</span>
     </h1>
 </doc-anchor-target>
 <doc-anchor-target id="needs-regulatory-approval-before-launch">
@@ -242,7 +242,7 @@
         <span>(Needs regulatory approval before launch)</span>
     </h4>
 </doc-anchor-target>
-<p>Creator/Community are <strong>Tradable</strong> Social Tokens that offer potential increase in price as Creator/Community grows. Growth Tokens are superior version of Loyalty Tokens. They are traded with in-house AMM and offers:</p>
+<p>Growth Tokens are <strong>Tradable</strong> Social Tokens that offer potential increase in price as Creator/Community grows. Growth Tokens are superior version of Loyalty Tokens. They are traded with in-house AMM and offers:</p>
 <ul>
 <li><p><b>Liquidity Pair of CreatorToken-BaseToken</b> : Gateway between Creator Economy and External World. Creator can choose from a list of options to select best suited BaseToken. For e.g. USDC, DAI, WETH, WBTC, BUSD, etc.</p>
 </li>
@@ -317,33 +317,35 @@
     </h2>
 </doc-anchor-target>
 <ul>
-<li><p>Pair, DAO, Vault and Bank contracts contains Token and NFT assets which is transfered via Migration Contract to V2 version of Pair, DAO, Vault and Bank contracts</p>
-</li>
-<li><p>Before migration of a Creator Community&#x27;s assets, community members must vote for or against mirgration and migration contract will be made public much in advance. Voting is implemented in CreatorToken contract. This is done to ensure security of assets and decentralisation of decision making. This is important since in Kigzag Protocol liquidity isn&#x27;t rented its owned.</p>
-</li>
-<li><p>If voted no, then assets will stay in V1, current version, of Kigzag Protocol</p>
-</li>
-<li><p>There can be 2 types of migration, partial and complete. In partial migration only one or two parts maybe updated like only Vault contract updated and hence needs asset transfer only for Vault&#x27;s V2 version. In full migration all 4 contracts will be updated and maybe entire Factory and CreatorFactory may also be updated.</p>
-</li>
-<li><p>Migration function in Pair, DAO, Vault and Bank are implemented with check on voting status passed and only after that migration contract, that has been voted, is allowed to transfer asset by deploying V2 version of the contract.</p>
-</li>
-<li><p>Migration function also updates all dependent contracts with new address of V2 contract. For e.g. if Vault contract gets migrated to V2,then its dependent contract CreatorToken, CreatorNFT, CreatorDAO and CreatorFactory will get updated with V2 address of vault variable.</p>
-</li>
-<li><p><b>Creator Bank (Not needed on day one, can be integrated after launch)</b></p>
+<li>Pair, DAO, Vault and Bank contracts contains Token and NFT assets which is transfered via Migration Contract to V2 version of Pair, DAO, Vault and Bank contracts</li>
+<li>Before migration of a Creator Community&#x27;s assets, community members must vote for or against mirgration and migration contract will be made public much in advance. Voting is implemented in CreatorToken contract. This is done to ensure security of assets and decentralisation of decision making. This is important since in Kigzag Protocol liquidity isn&#x27;t rented its owned.</li>
+<li>If voted no, then assets will stay in V1, current version, of Kigzag Protocol</li>
+<li>There can be 2 types of migration, partial and complete. In partial migration only one or two parts maybe updated like only Vault contract updated and hence needs asset transfer only for Vault&#x27;s V2 version. In full migration all 4 contracts will be updated and maybe entire Factory and CreatorFactory may also be updated.</li>
+<li>Migration function in Pair, DAO, Vault and Bank are implemented with check on voting status passed and only after that migration contract, that has been voted, is allowed to transfer asset by deploying V2 version of the contract.</li>
+<li>Migration function also updates all dependent contracts with new address of V2 contract. For e.g. if Vault contract gets migrated to V2,then its dependent contract CreatorToken, CreatorNFT, CreatorDAO and CreatorFactory will get updated with V2 address of vault variable.</li>
+</ul>
+<doc-anchor-target id="creator-bank-not-needed-on-day-one-can-be-integrated-after-launch">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#creator-bank-not-needed-on-day-one-can-be-integrated-after-launch">#</doc-anchor-trigger>
+        <span>Creator Bank (Not needed on day one, can be integrated after launch)</span>
+    </h4>
+</doc-anchor-target>
 <ul>
 <li>Bank contract needs price data from CreatorToken to decide upon interest rates. Hence, Each creator can have different interest rates</li>
 <li>Community members, holders of CreatorToken can stake their CreatorTokens for some yield</li>
 <li>NFT Loans: Holder of NFTs from Creator Vault can use it as collateral for borrowing CreatorTokens, since we have price data of CreatorTokens and also price of single NFT is fixed w.r.t. to CreatorToken we can estimate realistic valuation of NFTs</li>
 <li>Flash Loans on Creator Tokens</li>
 </ul>
-</li>
-<li><p><b>External Contract Functions</b></p>
+<doc-anchor-target id="external-contract-functions">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#external-contract-functions">#</doc-anchor-trigger>
+        <span>External Contract Functions</span>
+    </h4>
+</doc-anchor-target>
 <ul>
 <li>2 NFTs of different creator with same BaseTokens can be swapped with small fees</li>
 <li>If someone owns an NFT, you can buy it for premium by placing a bid (Auction smart contract will be placed separately)</li>
 <li>Base Token Pairs: Use a Curve kind of multi token pairs for BaseTokens for swap. This will help NFTs of creator that don&#x27;t have same base token. Liquidity will be added by us using a small fraction of profit being earnt in BaseTokens. Swap in these pools will have no fees.</li>
-</ul>
-</li>
 </ul>
 
 
@@ -417,6 +419,6 @@
 
         <div id="docs-overlay-target"></div>
 
-        <script>window.__DOCS__ = { "title": "Dao & Vault", icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+        <script>window.__DOCS__ = { "title": "Growth Tokens", icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
     </body>
 </html>
