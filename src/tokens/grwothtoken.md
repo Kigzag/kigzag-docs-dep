@@ -1,5 +1,5 @@
 ---
-label: Dao & Vault
+label: Growth Tokens
 icon: git-branch
 icon: plug
 order: 1000
@@ -7,7 +7,7 @@ order: 1000
 
 
 #### (Needs regulatory approval before launch)
-  Creator/Community are **Tradable** Social Tokens that offer potential increase in price as Creator/Community grows. Growth Tokens are superior version of Loyalty Tokens. They are traded with in-house AMM and offers:
+  Growth Tokens are **Tradable** Social Tokens that offer potential increase in price as Creator/Community grows. Growth Tokens are superior version of Loyalty Tokens. They are traded with in-house AMM and offers:
    - <b>Liquidity Pair of CreatorToken-BaseToken</b> : Gateway between Creator Economy and External World. Creator can choose from a list of options to select best suited BaseToken. For e.g. USDC, DAI, WETH, WBTC, BUSD, etc. 
 
    - <b>NFTs that are pegged to CreatorToken</b> : Price of 1 NFT will be constant w.r.t. CreatorToken and every time a new NFT is added to the vault same number of CreatorTokens will be minted to ensure the peg. Price of NFT soars when Creator Tokens soars w.r.t. Base Tokens. Secondary Market for NFT allows price to soar further but the floor price of NFTs stay constant w.r.t. Creator Tokens. At this price NFT holder can sell to the vault.
@@ -17,7 +17,7 @@ order: 1000
    - <b>DAO</b> : for Creator community governance. Handles community treasury.
 
 Creator/Community can decide to opt for anyone of them. 
-   
+
 ## Creator Vault
   - Creator Add/Mint NFTs to vault contract
   - Launch Creator Token, make it available for community to buy. Liquidity is bought not rented. Since CreatorTokens offer NFT, DAO, Banking related utilities they do have value since day one of launch especially to access Vault NFTs.
@@ -55,13 +55,13 @@ Creator/Community can decide to opt for anyone of them.
   - Migration function in Pair, DAO, Vault and Bank are implemented with check on voting status passed and only after that migration contract, that has been voted, is allowed to transfer asset by deploying V2 version of the contract.
   - Migration function also updates all dependent contracts with new address of V2 contract. For e.g. if Vault contract gets migrated to V2,then its dependent contract CreatorToken, CreatorNFT, CreatorDAO and CreatorFactory will get updated with V2 address of vault variable.
 
-- <b>Creator Bank (Not needed on day one, can be integrated after launch)</b>
+#### Creator Bank (Not needed on day one, can be integrated after launch)
   - Bank contract needs price data from CreatorToken to decide upon interest rates. Hence, Each creator can have different interest rates
   - Community members, holders of CreatorToken can stake their CreatorTokens for some yield
   - NFT Loans: Holder of NFTs from Creator Vault can use it as collateral for borrowing CreatorTokens, since we have price data of CreatorTokens and also price of single NFT is fixed w.r.t. to CreatorToken we can estimate realistic valuation of NFTs
   - Flash Loans on Creator Tokens 
 
-- <b>External Contract Functions</b>
+#### External Contract Functions
   - 2 NFTs of different creator with same BaseTokens can be swapped with small fees 
   - If someone owns an NFT, you can buy it for premium by placing a bid (Auction smart contract will be placed separately) 
   - Base Token Pairs: Use a Curve kind of multi token pairs for BaseTokens for swap. This will help NFTs of creator that don't have same base token. Liquidity will be added by us using a small fraction of profit being earnt in BaseTokens. Swap in these pools will have no fees.
