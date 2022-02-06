@@ -1,5 +1,5 @@
 ---
-label: Kigzag Protocol
+label: About Kigzag
 icon: info
 ---
 
