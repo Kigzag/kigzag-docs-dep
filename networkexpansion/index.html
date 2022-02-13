@@ -28,11 +28,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="/assets/klogo.png" rel="icon" />
-    <link href="/resources/css/retype.css?v=1.11.2.698070054903" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/resources/css/retype.css?v=1.11.2.698074291742" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/resources/js/config.js?v=1.11.2.698070054903" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/resources/js/config.js?v=1.11.2.698074291742" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/resources/js/retype.js?v=1.11.2" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=1.11.2.698070054903" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=1.11.2.698074291742" defer></script>
 </head>
     <body>
         <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -245,19 +245,21 @@
         <span>Round 1 (4 months):</span>
     </h3>
 </doc-anchor-target>
-<ul class="contains-task-list">
-<li class="task-list-item"><p><input disabled="disabled" type="checkbox" /> First, we will deploy to 6 netowrk&#x27;s testnet for 1-2 month, meanwhile onboarding creators and building community,</p>
+<ul>
+<li><p>First, we will deploy to 6 netowrk&#x27;s testnet for 1-2 month, meanwhile onboarding creators and building community,</p>
 </li>
-<li class="task-list-item"><p><input disabled="disabled" type="checkbox" /> and then to Mainnet.</p>
-<p>Top EVM compatible chains:
-1. Avalanche
-2. Polygon
-3. BSC
-4. Fantom<br />
-5. Harmony
-6. Moonriver, Moonbeam (Polkadot Parachains)</p>
+<li><p>and then to Mainnet.</p>
 </li>
 </ul>
+<p>Top EVM compatible chains:</p>
+<ol>
+<li>Avalanche</li>
+<li>Polygon</li>
+<li>BSC</li>
+<li>Fantom</li>
+<li>Harmony</li>
+<li>Moonriver, Moonbeam (Polkadot Parachains)</li>
+</ol>
 <doc-anchor-target id="round-2-1-months">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#round-2-1-months">#</doc-anchor-trigger>
@@ -268,11 +270,11 @@
 <li><p>Due to high number of transactions and low average transaction value, we believe Ethereum is not the best for our protocol but still this step will help get high end Ethereum network users.</p>
 </li>
 <li><p>Also profits generated from Round 1 will help pay gas fee for contract deployment.</p>
+</li>
+</ul>
 <ol start="7">
 <li>Ethereum</li>
 </ol>
-</li>
-</ul>
 <doc-anchor-target id="round-3-2-months">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#round-3-2-months">#</doc-anchor-trigger>
@@ -281,14 +283,14 @@
 </doc-anchor-target>
 <p>Remaining EVM compatible chains:</p>
 <p>Top EVM compatible chains:</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">8. Arbitrum 
-9. Optimism 
-10. xDai
-11. OKEx 
-12. HECO
-13. Solana (Using Solang Compiler or maybe Neon)</code></pre>
-</doc-codeblock></div>
+<ol start="8">
+<li>Arbitrum</li>
+<li>Optimism</li>
+<li>xDai</li>
+<li>OKEx</li>
+<li>HECO</li>
+<li>Solana (Using Solang Compiler or maybe Neon)</li>
+</ol>
 <doc-anchor-target id="round-4-5-months">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#round-4-5-months">#</doc-anchor-trigger>
@@ -296,12 +298,12 @@
     </h3>
 </doc-anchor-target>
 <p>We further plan to expand to EVM non-compatible networks depending on user demand:</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">13. Solana 
-14. Terra 
-15. Algorand 
-16. Cardano </code></pre>
-</doc-codeblock></div>
+<ol start="13">
+<li>Solana</li>
+<li>Terra</li>
+<li>Algorand</li>
+<li>Cardano</li>
+</ol>
 
 
 
@@ -313,11 +315,11 @@
             
 <nav class="flex mt-14">
     <div class="w-1/2">
-        <a class="px-5 py-4 h-full flex items-center break-all md:break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="/license/">
+        <a class="px-5 py-4 h-full flex items-center break-all md:break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="/consumers/">
             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
             <span>
                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                <span class="block mt-1">License</span>
+                <span class="block mt-1">Consumers</span>
             </span>
         </a>
     </div>
