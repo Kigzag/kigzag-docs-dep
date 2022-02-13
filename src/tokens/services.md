@@ -1,11 +1,9 @@
 ---
-label: Services
+label: Products, Services & Rewards
 icon: git-branch
 icon: token 
 order: 900
 ---
-
-## Services
   
   - Exclusive gated video content, one-on-one video intereaction, shoutouts on social media and much more according to creator's creative power :)
 

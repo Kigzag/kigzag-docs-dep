@@ -2,7 +2,7 @@
 label: Creator Dao & Vault
 icon: git-branch
 icon: plug
-order: 800
+order: 700
 ---
  
 ### Creator DAO
