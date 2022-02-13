@@ -7,7 +7,7 @@ icon: info
 
 ![Smart Contract Flow Diagram](./assets/social_token_development1.png)
 Kigzag is an open source blockchain powered protocol which runs on creator tokens. 
-These are [smart tickets](./tokens/introduction) to access premium content, services and community of a creator. They are non-tradable fixed price tickets and can, currently be bought/sold from our webapp.
+These are [smart tickets](./tokens/introduction) to access premium content, services and community of a creator. They are non-tradable fixed price tickets and can be bought/sold from our webapp.
 
 
 <!-- ## Documentation

@@ -5,7 +5,7 @@ icon: plug
 order: 1000
 ---
  
-  These are **non-tradable** fixed price tickets to get exclusive services/products from creator.   
-  Buy Creator Tokens at a price fixed by Creator/Community using network wrapped token like WETH/WMATIC/WAVAX or stablecoins like USDC, DAI. These base tokens/payment tokens received are send to DAO contract which handles treasury.
+  Smart tickets are **non-tradable** fixed price tokens, to access exclusive services & products from creators.   
+  Users can buy these tickets at a price fixed by creator/community using various [payment options](../payments). These tickets are send to DAO contract which handles treasury.
 <!-- <img src="./assets/tickets.png" width="400" height="250" /> -->
 ![](../../assets/tickets.png)
