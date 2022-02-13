@@ -1,15 +1,14 @@
 ---
-label: Introduction
+label: Overview
 icon: info
 ---
 
 # [Kigzag Protocol](https://kigzag.com/)
 
 ![Smart Contract Flow Diagram](./assets/social_token_development1.png)
-Kigzag is a general purpose open source blockchain powered protocol which decentralises social businesses with the help of creator loyalty tickets.
-These are smart tickets to access services & rewards provided by a creator. 
+Kigzag is an open source blockchain powered protocol which runs on creator tokens. 
+These are [smart tickets](./tokens/introduction) to access premium content, services and community of a creator. They are non-tradable fixed price tickets and can, currently be bought/sold from our webapp.
 
-#### It contains [Loyalty Tickets](./tokens/Loyalty-tokens/tokens).
 
 <!-- ## Documentation
 
