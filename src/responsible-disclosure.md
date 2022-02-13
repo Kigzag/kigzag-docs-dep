@@ -1,6 +1,7 @@
 ---
 label: Responsible disclosure
 icon: info
+oder: 100
 ---
 
 At Kigzag, we consider the security of our systems a top priority. But, even putting top priority status and maximum effort, there is still a possibility that vulnerabilities can exist. 

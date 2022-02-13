@@ -1,6 +1,7 @@
 ---
 label: License
 icon: info
+order: 200
 ---
 
 The primary license for Kigzag Contracts V1 is the Business Source License 1.1 (`BUSL-1.1`), see [`LICENSE`](https://github.com/Kigzag/KigzagContractsV1/blob/main/LICENSE). 
@@ -16,7 +17,7 @@ Overall this repository is **not** available for production use !!!
 
 ### Remarks
 
-- Currently,there is no exchange token but the core contract has it's support. The plan was to cut the fees for smart tickets for the users holding exchange token.
+- Currently, there is no exchange token but the core contract has it's support. The plan was to cut the fees from smart tickets for the users holding exchange token.
 
 
 ### Community
