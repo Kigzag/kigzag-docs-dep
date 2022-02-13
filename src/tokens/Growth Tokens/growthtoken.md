@@ -3,6 +3,7 @@ label: Growth Tokens
 icon: git-branch
 icon: plug
 order: 1000
+visibility: hidden
 ---
 
 

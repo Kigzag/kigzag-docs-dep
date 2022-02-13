@@ -1,5 +1,5 @@
 ---
-label: About Kigzag
+label: Introduction
 icon: info
 ---
 

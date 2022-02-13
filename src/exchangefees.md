@@ -1,6 +1,7 @@
 ---
 label: Exchange Fees
 icon: note
+visibility: hidden
 ---
 
 ##### We only charge when you buy or sell. Our fee is 0.5% of base token in Token Sale/Swap & 0.5% of Creator Token upon Redeem or Return of NFTs. This helps us support the future development of Kigzag Protocol and our DAO Forum.
