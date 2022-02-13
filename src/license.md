@@ -18,11 +18,3 @@ Overall this repository is **not** available for production use !!!
 ### Remarks
 
 - Currently, there is no exchange token but the core contract has it's support. The plan was to cut the fees from smart tickets for the users holding exchange token.
-
-
-### Community
-
-<a href="https://discord.gg/ExMb82zpnB" target="_blank"><img src="https://kigzag.com/images/discord.png" width="80" height="80"/></a>&emsp;&emsp;&emsp;
-<a href="https://t.me/Kigzag" target="_blank"><img src="https://kigzag.com/images/telegram.png" width="80" height="80"/></a>&emsp;&emsp;&emsp;
-<a href="https://twitter.com/Kigzag" target="_blank"><img src="https://kigzag.com/images/twitter.png" width="80" height="80"/></a>&emsp;&emsp;&emsp;
-<a href="https://www.reddit.com/r/Kigzag/" target="_blank"><img src="https://kigzag.com/images/reddit.png" width="80" height="80"/></a>
