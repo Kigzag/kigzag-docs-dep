@@ -2,7 +2,7 @@
 label: Rewards & Services
 icon: git-branch
 icon: token 
-order: 2
+order: 900
 ---
 
 ## Services

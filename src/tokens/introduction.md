@@ -2,7 +2,7 @@
 label: Introduction
 icon: git-branch
 icon: plug
-order: 1
+order: 1000
 ---
  
   These are **non-tradable** fixed price tickets to get exclusive services/products from creator.   
