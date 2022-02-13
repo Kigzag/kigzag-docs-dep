@@ -7,22 +7,22 @@ order: 900
 
 ## Services
   
-  - gated community on discord, telegram
+  - Exclusive gated video content, one-on-one video intereaction, shoutouts on social media and much more according to creator's creative power :)
+
+  - Access to gated community on discord and telegram.
   
-  - exclusive video content, one-on-one intereaction (online/offline), shoutouts on social media
+  - Merchandise
   
-  - merchandise
+  - Real world use cases like access to front row seats of creator's offline show (if creator is a musician or comedian), access to creator's online show and much more according to creator's use case. 
   
-  - real world use cases like access to front row seats of Creator's show (if creator is a musician or comedian). 
-  
-  - Businesses can also be a creator and reward their loyal customers (token holders) with exclusive products and discounts. This will make their business **Network Effect** driven by creating **sticky customers**.
+  - Businesses can also be a creator and reward their loyal customers (ticket holders) with exclusive products and discounts. This will help the businesses to make use of **Network Effect** to their advantage, and would be driven by creating **sticky customers**.
 
 ![](../../assets/premium.svg)
 
 ## Benefits
   - Same Creator Token can gives access across a range of products both online and offline.
   
-  - Fans/Followers can take part in creator's decision making which takes participation in creator's journey to another level
+  - Fans/Followers can take part in creator's decision making which takes participation in creator's journey to another level.
 
   - Global nature of blockchain makes cross border ticketting easier.
 

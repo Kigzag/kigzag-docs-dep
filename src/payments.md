@@ -1,6 +1,7 @@
 ---
 label: Payments
 icon: note
+order: 400
 ---
 
 

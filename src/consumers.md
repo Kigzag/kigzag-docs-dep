@@ -1,9 +1,10 @@
 ---
 label: Consumers
 icon: sync
+order: 500
 ---
 
-This protocol is for **Creators, Communities, Fans, Followers, Traders, Investors and many more**
+This protocol is for **Creators, Communities, Fans, Followers, Traders, Investors and many more.**
 
 ### Creator's Dilemma:
 On social media platforms, creators' work hard to create content and put it for free to earn likes and comments. Some platforms pay but they take a considerable cut from creators.
