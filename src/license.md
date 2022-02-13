@@ -1,7 +1,7 @@
 ---
 label: License
 icon: info
-order: 200
+order: 100
 ---
 
 The primary license for Kigzag Contracts V1 is the Business Source License 1.1 (`BUSL-1.1`), see [`LICENSE`](https://github.com/Kigzag/KigzagContractsV1/blob/main/LICENSE). 
