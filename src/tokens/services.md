@@ -5,7 +5,7 @@ icon: token
 order: 900
 ---
   
-  ### Exclusicive Acess To:
+  ##### Exclusicive Acess To:
 
   - Gated chats on discord, telegram.
   - Video content from creator.

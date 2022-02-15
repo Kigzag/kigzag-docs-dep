@@ -6,22 +6,22 @@ order: 800
 ---
 
 
-### Creator's Dilemma:
+##### Creator's Dilemma:
 On Instagram, Facebook and Tiktok, creators aren't paid. Youtube takes considerable cut from Creators. Creator Tokens help build community driven stable business model.
 
-### Network Effects Rule:  
+##### Network Effects Rule:  
 Loyal token owners become wprd of mouth promotoers of Creators and Businesses significant marketting budget devoted to middlemen like Google and Facebook.
 
-### Community Driven Governance:
+##### Community Driven Governance:
 DAO allows token holders to propose and debate on voting proposals to collectively make big decisions. They can also get allowances for contributions.
 
-### Deeper Interactions:
+##### Deeper Interactions:
 Fans/Followers can take part in creator's decision making which takes participation in creator's journey to another level.
 
-### Multi Purpose Use Cases:
+##### Multi Purpose Use Cases:
 Same Creator Token can gives access across a range of products and services both online and offline.
 
-### Global Business Operations:
+##### Global Business Operations:
 Global nature of blockchain makes cross border ticketting easier.
 
 
