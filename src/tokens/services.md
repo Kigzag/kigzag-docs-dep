@@ -5,14 +5,14 @@ icon: token
 order: 900
 ---
   
-  - Exclusive gated video content, one-on-one video intereaction, shoutouts on social media and much more according to creator's creative power :)
+  ### Exclusicive Acess To:
 
-  - Access to gated community on discord and telegram.
+  - Gated chats on discord, telegram.
+  - Video content from creator.
+ - Creator live streams and video calls for one-on-one interaction
+ - Creator Merchandise
+ - Creator shoutouts on social media
+ - Physical world cases like access to front row seats of Creator's show (if creator is a musician or comedian).
+ - Businesses can also be a creator and reward their loyal customers (token holders) with exclusive products and discounts.
   
-  - Merchandise
-  
-  - Real world use cases like access to front row seats of creator's offline show (if creator is a musician or comedian), access to creator's online show and much more according to creator's use case. 
-  
-  - Businesses can also be a creator and reward their loyal customers (ticket holders) with exclusive products and discounts. This will help the businesses to make use of **Network Effect** to their advantage, and would be driven by creating **sticky customers**.
-
 ![](../../assets/premium.svg)

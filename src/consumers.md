@@ -2,6 +2,7 @@
 label: Consumers
 icon: sync
 order: 500
+visibilty: hidden
 ---
 
 This protocol is for **Creators, Communities, Fans, Followers, Traders, Investors and many more.**
