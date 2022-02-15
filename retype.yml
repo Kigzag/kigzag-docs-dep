@@ -2,15 +2,15 @@ input: "./src"
 output: ".retype"
 url: docs.kigzag.com
 
-favicon: assets/Klogo.png
+favicon: assets/klogo_circled_white.png
 
 branding:
   label: Docs
-  logo: assets/Kigzaglogo.png
-  logoDark: assets/Kigzaglogo.png
+  logo: assets/kigzaglogo-rounded.png
+  logoDark: assets/kigzaglogo-rounded.png
   colors:
     label:
-      background: "#4EC660"
+      background: "#3B82F6"
       text: "#ffffff"
 
 meta:
